@@ -1,38 +1,38 @@
-#Node class
-class Node():
-    def __init__(self):
-        self.data = None
-        self.link = None
-    #첫번째 노드 생성 - 링크 필요 없음
-node1 = Node()
-node1.data = "다현0"
-#두번째 노드 생성 - 첫번째 노드와 연결
-node2 = Node()
-node2.data = "다현1"
-node1.link = node2
-node3 = Node()
-node3.data = "다현2"
-node2.link = node3
-node4 = Node()
-node4.data = "다현3"
-node3.link = node4
-node5 = Node()
-node5.data = "다현4"
-node4.link = node5
+#김규언 202630203
+## 9월10일 (2주차 강의)
 
-#데이터 모두 출력
-current = node1
-while current is not None:
-    print(current.data, end="")
-    current = current.link
-   
-#데이터 삽입
-newNode = Node()
-newNode.data = "솔라"
-newNode.link = node2.link
-node2.link = newNode
-#데이터 삭제
-current = node1
-while current is not None:
-    print(current.data, end=" " )
-    current = current.link
+
+
+# html의 h1부터 h6까지의 표현 
+# h1 크기
+## h2 크기
+### h3 크기
+#### h4 크기
+##### h5 크기
+
+*이텔릭체*
+
+
+**볼드**
+
+----
+1. 사과
+2. 배
+3. 감
+
+*사과
+  *깍은 사과
+  *맛있는  사과
+*배
+*감
+
+# This program prints Hello, world!
+print('Hello, world!')
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+
+https://www.google.com/
+

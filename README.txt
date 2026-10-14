@@ -1,6 +1,3 @@
-## sv.py
-
-```python
 #Node class
 class Node():
     def __init__(self):
@@ -39,4 +36,3 @@ current = node1
 while current is not None:
     print(current.data, end=" " )
     current = current.link
-```
